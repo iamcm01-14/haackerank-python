@@ -1,0 +1,10 @@
+from collection import counter
+def sockMerchant(n,arr):
+   n=counter(arr)
+   s=0
+   for i in n.values():
+     s+=i//n
+   return s
+n=input()
+ar=map(int,input(),split())
+print(def sockmerchant(arr,n))
